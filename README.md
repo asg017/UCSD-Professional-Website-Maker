@@ -2,8 +2,7 @@
 
 ## Why?
 
-Professor Susan Marx of the CSE Department of UC San Diego [apparently thinks]
-(https://www.reddit.com/r/UCSD/comments/8pyinp/regarding_the_cse_professor_who_disclosed_a/)
+Professor Susan Marx of the CSE Department of UC San Diego [apparently thinks](https://www.reddit.com/r/UCSD/comments/8pyinp/regarding_the_cse_professor_who_disclosed_a/)
 that cat photos are so unprofessional that you deserve to be ridiculed
 and humiliated in front of all your classmates.
 
@@ -11,9 +10,9 @@ Not only is this response blantantly disgusting, unprofessional, and a violation
 of privacy and respect, but this also violates [UC San Diego's Principles of 
 Community](https://ucsd.edu/about/principles.html):
 
-We are committed to the highest standards of civility and decency toward all. We are committed to promoting and supporting a community where all people can work and learn together in an atmosphere free of abusive or demeaning treatment.
+> We are committed to the highest standards of civility and decency toward all. We are committed to promoting and supporting a community where all people can work and learn together in an atmosphere free of abusive or demeaning treatment.
 
-(thanks to [u/crancherryy](https://www.reddit.com/r/UCSD/comments/8pyinp/regarding_the_cse_professor_who_disclosed_a/e0f718d/) for pointing this out).
+(thanks to [u/crancherryy](https://www.reddit.com/r/UCSD/comments/8pyinp/regarding_the_cse_professor_who_disclosed_a/e0f718d/) for pointing this out)
 
 
 So if you wanna cat-up your acsweb servers, here ya go
@@ -60,9 +59,12 @@ chmod u+x makeWebsite.sh
 
 6. Badda bing badda boo you're gucci yo
 
+*All in one*:
 
-
-All in one:
-
-```bash
+``` bash
+ssh your_username@acsweb.ucsd.edu
+cd  public_html/
+wget https://raw.githubusercontent.com/asg017/UCSD-Professional-Website-Maker/master/makeWebsite.sh
+chmod u+x makeWebsite.sh
+./makeWebsite.sh
 ```
