@@ -1,5 +1,8 @@
 # UCSD Professional Website Creator
 
+[Live example here!](http://acsweb.ucsd.edu/~asg017/)
+![Example Professional Site](https://i.imgur.com/92bcW9u.jpg)
+
 ## Why?
 
 Professor Susan Marx of the CSE Department of UC San Diego [apparently thinks](https://www.reddit.com/r/UCSD/comments/8pyinp/regarding_the_cse_professor_who_disclosed_a/)
@@ -19,8 +22,21 @@ So if you wanna cat-up your acsweb servers, here ya go
 
 
 ## Create The Site
+
+
 Note: this might overwrite anything you may have previously put in 
 your `public_html` folder: proceed with caution.
+
+![Step by step instructional video](https://i.imgur.com/UWeKthw.gif)
+
+
+0. If you haven't yet, create homepage on the acsweb.ucsd.edu site:
+
+https://sdacs.ucsd.edu/accttools-cgi-bin/web.cgi
+
+Put your username, password, select "acsweb" as a webserver, check off 
+"Create public_html" or "Allow others to see documents in public_html",
+and click continue
 
 
 1. SSH into your acsweb account with:
