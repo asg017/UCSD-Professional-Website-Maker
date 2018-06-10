@@ -2,12 +2,21 @@
 
 ## Why?
 
-Professor Susan Marx of the CSE Department of UC San Diego apparantly thinks
+Professor Susan Marx of the CSE Department of UC San Diego [apparently thinks]
+(https://www.reddit.com/r/UCSD/comments/8pyinp/regarding_the_cse_professor_who_disclosed_a/)
 that cat photos are so unprofessional that you deserve to be ridiculed
 and humiliated in front of all your classmates.
 
-So if you wanna cat-up your acsweb servers, here ya go
+Not only is this response blantantly disgusting, unprofessional, and a violation
+of privacy and respect, but this also violates [UC San Diego's Principles of 
+Community](https://ucsd.edu/about/principles.html):
 
+We are committed to the highest standards of civility and decency toward all. We are committed to promoting and supporting a community where all people can work and learn together in an atmosphere free of abusive or demeaning treatment.
+
+(thanks to [u/crancherryy](https://www.reddit.com/r/UCSD/comments/8pyinp/regarding_the_cse_professor_who_disclosed_a/e0f718d/) for pointing this out).
+
+
+So if you wanna cat-up your acsweb servers, here ya go
 
 
 ## Create The Site
@@ -30,33 +39,30 @@ ssh your_username@acsweb.ucsd.edu
 cd  public_html/
 ```
 
-3. Run this script with:
+3. Grab the `makeWebsite.sh` script:
 
-```bash
-wget -O putscripthere.sh | bash
+``` bash
+wget https://raw.githubusercontent.com/asg017/UCSD-Professional-Website-Maker/master/makeWebsite.sh
 ```
 
-Alternatively, if you don't want to arbitrarily run a random script,
-run these commands:
+(Here's the [source code](https://github.com/asg017/UCSD-Professional-Website-Maker/blob/master/makeWebsite.sh) for this script if you wanna verify it)
 
-```bash
-git clone XXXXX
+
+4. Enable executable permission for this script, run it:
+
+``` bash
 chmod u+x makeWebsite.sh
 ./makeWebsite.sh
 ```
-4. Follow the instructions
 
-<gif here>
+5. Follow the instructions for the script:
 
 
-5. Badda bing badda boo you're gucci yo
+6. Badda bing badda boo you're gucci yo
 
 
 
 All in one:
 
 ```bash
-ssh your_username@acsweb.ucsd.edu
-cd  public_html/
-wget -O putscripthere.sh | bash
 ```
