@@ -27,8 +27,12 @@ So if you wanna cat-up your acsweb servers, here ya go
 Note: this might overwrite anything you may have previously put in 
 your `public_html` folder: proceed with caution.
 
+### Installation Example
+
 ![Step by step instructional video](https://i.imgur.com/UWeKthw.gif)
 
+
+### Written Instructions
 
 0. If you haven't yet, create homepage on the acsweb.ucsd.edu site:
 
