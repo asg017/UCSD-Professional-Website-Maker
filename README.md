@@ -18,7 +18,7 @@ Community](https://ucsd.edu/about/principles.html):
 (thanks to [u/crancherryy](https://www.reddit.com/r/UCSD/comments/8pyinp/regarding_the_cse_professor_who_disclosed_a/e0f718d/) for pointing this out)
 
 
-So if you wanna cat-up your acsweb servers, here ya go
+So if you wanna cat-up your acsweb site and annoy Prof. Marx, here ya go
 
 
 ## Create The Site
@@ -39,7 +39,7 @@ your `public_html` folder: proceed with caution.
 https://sdacs.ucsd.edu/accttools-cgi-bin/web.cgi
 
 Put your username, password, select "acsweb" as a webserver, check off 
-"Create public_html" or "Allow others to see documents in public_html",
+"Create public_html" and "Allow others to see documents in public_html",
 and click continue
 
 
